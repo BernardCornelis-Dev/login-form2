@@ -1,0 +1,111 @@
+:root {
+    --text-color: #212121;
+    --bg-color: #aaa;
+    --accent-color: #ff4d6d;
+
+    --font-family: "Inter", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 700;
+    color: var(--accent-color);
+    font-size: 1rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    padding: 1rem;
+}
+
+h1 {
+    color: var(--accent-color);
+    font-size: 2.4rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h1,
+h2 {
+    margin-bottom: 0.75rem;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+.tittle {
+    margin-bottom: 1.5rem;
+}
+
+.login-card {
+    width: 300px;
+    padding: 1.5rem;
+    border-radius: 18px;
+    background: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(10px);
+}
+
+.field {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.field span,
+.field input {
+    margin-bottom: 0.75rem;
+}
+
+.field input {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 18px;
+    font-size: 1rem;
+    color: var(--text-color);
+    box-shadow: 0 4px rgba(0.0.0.0.15);
+
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.button {
+
+    border-radius: 18px;
+    padding: 0.5rem 1rem;
+    background: #fff;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.button:hover {
+    font-weight: 800;
+    color: var(--accent-color);
+}

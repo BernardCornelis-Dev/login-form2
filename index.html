@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BernardCornelis-Dev</title>
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main class="container">
+        <section class="login-card">
+            <div class="tittle">
+                <h1>Sign in</h1>
+                <h2>Don't have an account?</h2>
+                <p>Create one <a href="account.html">here</a></p>
+            </div>
+            <form class="form">
+                <label class="field">
+                    <span>Email</span>
+                    <input type="email" class="input" placeholder="your email" autocomplete="on">
+                </label>
+
+                <label class="field">
+                    <span>Password</span>
+                    <input type="password" class="input eye" placeholder="your password" autocomplete="on" required>
+                    <i class="fa-solid fa-eye"></i>
+                </label>
+
+                <label class="checkbox">
+                    <input type="checkbox">Keep me signed in
+                </label>
+
+                <button type="submit" class="button">Enter</button>
+            </form>
+
+            <a href="#">Forgot password?</a>
+        </section>
+    </main>
+</body>
+</html>

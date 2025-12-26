@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main class="container">
+        <section class="login-card">
+            <h1>Create your account</h1>
+
+            <form class="form">
+                <label class="field">
+                    Your name<span class="required">*</span>
+                    <input type="text" placeholder="your name" class="input" required> 
+                </label>
+                <label class="field">
+                    Your surname<span class="required">*</span>
+                    <input type="text" placeholder="your surname" class="input" required> 
+                </label>
+                <label class="field">
+                    Your address<span class="required">*</span>
+                    <input type="text" placeholder="your address" class="input" required> 
+                </label>
+                <label class="field">
+                   City<span class="required">*</span>
+                    <input type="text" placeholder="your city" class="input" required> 
+                </label>
+                <label class="field">
+                   Postal code<span class="required">*</span>
+                    <input type="number" placeholder="`postal code" class="input" required> 
+                </label>
+                <label class="field">
+                   State<span class="required">*</span>
+                    <input type="text" placeholder="your state" class="input" required> 
+                </label>
+                <label class="field">
+                   Country<span class="required">*</span>
+                    <input type="text" placeholder="your country" class="input" required> 
+                </label>
+
+                <label class="field">
+                    Fecha de nacimiento <span class="required">*</span>
+                    <input type="date" name="dob" class="input" required>
+                </label>
+
+                <label class="field">
+                    Your email <span class="required">*</span>
+                    <input type="email" placeholder="your email" class="input" required>
+                </label>
+
+                <label class="field">
+                    Create your password <span class="required">*</span>
+                    <input type="password" placeholder="create a password" class="input" required>
+                </label>
+
+                <button class="buton">Register</button>
+            </form>
+
+            <a href="index.html">Sign in</a>
+        </section>
+    </main>
+</body>
+</html>
