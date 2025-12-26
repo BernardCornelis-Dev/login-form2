@@ -97,7 +97,10 @@ p {
 }
 
 .button {
-
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    border: none;
     border-radius: 18px;
     padding: 0.5rem 1rem;
     background: #fff;
@@ -108,4 +111,10 @@ p {
 .button:hover {
     font-weight: 800;
     color: var(--accent-color);
+}
+
+.forgot {
+    display: block;
+    margin-top: 8px;
+    text-align: right;
 }
